@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Makanan Pontianak</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- owl css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- awesome fontfamily -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<!-- body -->
+
+<body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="" /></div>
+    </div>
+
+    <div class="wrapper">
+        <!-- end loader -->
+
+        <div class="sidebar">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+
+                <div id="dismiss">
+                    <i class="fa fa-arrow-left"></i>
+                </div>
+
+                <ul class="list-unstyled components">
+
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="Mie.html">About</a>
+                    </li>
+                    <li>
+                        <a href="service.html">Service</a>
+                    </li>
+                    <li>
+                        <a href="pricing.html">Pricing</a>
+                    </li>
+
+                    <li class="active">
+                        <a href="barbers.html">Our Barbers</a>
+
+                    </li>
+
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+
+        <div id="content">
+            <!-- header -->
+            <header>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="full">
+                                <a class="logo" href="index.html"><img src="data:image/jpeg;base64,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" alt="#" /></a>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="full">
+                                <div class="right_header_info">
+                                    <ul>
+                                        <li class="dinone"><img style="margin-right: 15px;margin-left: 15px;" src="images/phone_icon.png" alt="#"><a href="#">987-654-3210</a></li>
+                                        <li class="dinone"><img style="margin-right: 15px;" src="images/mail_icon.png" alt="#"><a href="#">demo@gmail.com</a></li>
+
+                                        <li class="dinone"><img style="margin-right: 15px;" src="images/search_icon.png" alt="#"></li>
+                                        <li class="button_user"> <a class="button" href="#">Book now</a></li>
+
+                                        <li>
+                                            <button type="button" id="sidebarCollapse">
+                                                <a href="#">MENU</a>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- end header -->
+            <div class="yellow_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="title">
+                                <h2>Our Barbers</h2>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- our barbers -->
+            <!-- section -->
+            <section class="resip_section">
+                <div class="container">
+
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="owl-carousel owl-theme">
+
+                                <div class="item">
+                                    <div class="product_blog_img">
+                                        <img src="images/1.png" alt="#" />
+                                    </div>
+                                    <div class="product_blog_cont">
+                                        <h3>Jone due</h3>
+                                        <h4>Haircutte</h4>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="product_blog_img">
+                                        <img src="images/2.png" alt="#" />
+                                    </div>
+                                    <div class="product_blog_cont">
+                                        <h3>Jne due</h3>
+                                        <h4>Haircutte</h4>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="product_blog_img">
+                                        <img src="images/3.png" alt="#" />
+                                    </div>
+                                    <div class="product_blog_cont">
+                                        <h3>Jkne due</h3>
+                                        <h4>Haircutte</h4>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="product_blog_img">
+                                        <img src="images/1.png" alt="#" />
+                                    </div>
+                                    <div class="product_blog_cont">
+                                        <h3>Jone due</h3>
+                                        <h4>Haircutte</h4>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="product_blog_img">
+                                        <img src="images/2.png" alt="#" />
+                                    </div>
+                                    <div class="product_blog_cont">
+                                        <h3>Jne due</h3>
+                                        <h4>Haircutte</h4>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="product_blog_img">
+                                        <img src="images/3.png" alt="#" />
+                                    </div>
+                                    <div class="product_blog_cont">
+                                        <h3>Jkne due</h3>
+                                        <h4>Haircutte</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- end our barbers -->
+
+            <!-- footer -->
+            <fooetr>
+                <div class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="footer_logo">
+                                    <a href="index.html"><img src="images/logo1.png" alt="logo" /></a>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="address">
+                                    <h3>address</h3>
+                                    <p>
+                                        Address: 73 Canal Street, New York, NY
+                                        <br> Tel: +1 123 456 789
+                                        <br> Fax: +1 123 456 789
+                                        <br> Email: support@demo.com</p>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <ul class="lik">
+
+                                    <li> <img src="images/fb.png" alt="#" /></li>
+                                    <li> <img src="images/tw.png" alt="#" /></li>
+                                    <li> <img src="images/you.png" alt="#" /></li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <div class="container">
+                            <p>© 2019 All Rights Reserved. <a href="https://html.design/"> Free Html Templates</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </fooetr>
+            <!-- end footer -->
+
+        </div>
+
+        <div class="overlay"></div>
+        <!-- Javascript files-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        <script src="js/jquery-3.0.0.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#sidebar").mCustomScrollbar({
+                    theme: "minimal"
+                });
+
+                $('#dismiss, .overlay').on('click', function() {
+                    $('#sidebar').removeClass('active');
+                    $('.overlay').removeClass('active');
+                });
+
+                $('#sidebarCollapse').on('click', function() {
+                    $('#sidebar').addClass('active');
+                    $('.overlay').addClass('active');
+                    $('.collapse.in').toggleClass('in');
+                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                });
+            });
+        </script>
+
+        <style>
+            #owl-demo .item {
+                margin: 3px;
+            }
+            
+            #owl-demo .item img {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+        </style>
+
+        <script>
+            $(document).ready(function() {
+                var owl = $('.owl-carousel');
+                owl.owlCarousel({
+                    margin: 10,
+                    nav: true,
+                    loop: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 2
+                        },
+                        1000: {
+                            items: 3
+                        }
+                    }
+                })
+            })
+        </script>
+
+</body>
+
+</html>
